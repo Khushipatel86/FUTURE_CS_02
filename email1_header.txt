@@ -1,0 +1,14 @@
+Delivered-To: user@example.com
+Received: from mail.fake-bank-security.com (203.0.113.25)
+        by mx.google.com with ESMTP id abc123
+        for <user@example.com>;
+        Tue, 28 Jan 2026 14:22:12 +0530 (IST)
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of fake-bank-security.com does not designate 203.0.113.25 as permitted sender) smtp.mailfrom=fake-bank-security.com;
+       dkim=fail header.d=fake-bank-security.com;
+       dmarc=fail (p=reject) header.from=fake-bank-security.com
+From: Security Alert <alerts@fake-bank-security.com>
+To: user@example.com
+Subject: Immediate Action Required: Verify Your Account
+Date: Tue, 28 Jan 2026 14:22:10 +0530
+Message-ID: <phish123@mail.fake-bank-security.com>

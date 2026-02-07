@@ -1,0 +1,14 @@
+Delivered-To: user@example.com
+Received: from mail.secure-paypal-login.xyz (185.203.118.67)
+        by mx.google.com with ESMTP id pqr789
+        for <user@example.com>;
+        Wed, 29 Jan 2026 09:40:12 +0530 (IST)
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of secure-paypal-login.xyz does not designate 185.203.118.67 as permitted sender) smtp.mailfrom=secure-paypal-login.xyz;
+       dkim=fail header.d=secure-paypal-login.xyz;
+       dmarc=fail (p=REJECT) header.from=secure-paypal-login.xyz
+From: PayPal Security <security@secure-paypal-login.xyz>
+To: user@example.com
+Subject: Urgent Action Required – Verify Your PayPal Account
+Date: Wed, 29 Jan 2026 09:40:05 +0530
+Message-ID: <pp-sec-20260129@mail.secure-paypal-login.xyz>
