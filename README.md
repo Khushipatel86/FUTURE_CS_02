@@ -44,5 +44,3 @@ Screenshots of the analyzed emails are included in the repository.
 ## ✅ Outcome
 This project improved understanding of phishing techniques and how users can detect and prevent such attacks.
 
-## 👨‍💻 Author
-Intern – FUTURE_CS_02
